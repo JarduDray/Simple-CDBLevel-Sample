@@ -1,0 +1,6 @@
+-lib heaps
+-lib hlsdl
+-lib castle
+-hl out/main.c
+-main Main.hx
+-D hl_vers="1.10"
