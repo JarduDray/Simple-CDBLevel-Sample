@@ -21,9 +21,9 @@ class Main extends App {
 		var d:Data = cdb.Parser.parse(s, false);
 
 		/**
-		 * Create instance of level (Index) using Data from last step and the specific name of the level you're loading
+		 * Create instance of level (Index) using Data from last step and the specific name of the sheet in the CDB file
 		 */
-		var i:Index<CdbLevel> = new Index(d, "arena");
+		var i:Index<CdbLevel> = new Index(d, "test");
 
 		/**
 		 * Level Loading Magic
